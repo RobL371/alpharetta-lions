@@ -4,36 +4,36 @@ slider:
   bg_image : "images/banner/banner-1.jpg"
   slider_item:
     # slider item loop
-    - title : "Your bright future is our mission"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et magna aliqua. Ut enim ad minim veniam, quis nostrud exer"
+    - title : "We serve! Helping our Community"
+      content : "The Alpharetta Lions Club is active in community events."
       animation_in : "left"
       animation_out : "right"
       # available animation : left, right, up, down
       button:
         enable : true
-        label : "Apply now"
+        label : "Learn More"
         link : "contact"
 
     # slider item loop
-    - title : "Your bright future is our mission"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et magna aliqua. Ut enim ad minim veniam, quis nostrud exer"
+    - title : "Joining the Alpharetta Lions Club"
+      content : "Find out more!"
       animation_in : "left"
       animation_out : "right"
       # available animation : left, right, up, down
       button:
         enable : true
-        label : "Apply now"
+        label : "Learn More"
         link : "contact"
 
     # slider item loop
-    - title : "Your bright future is our mission"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et magna aliqua. Ut enim ad minim veniam, quis nostrud exer"
+    - title : "Sponsoring the Alpharetta Lions Club Foundation"
+      content : "Information for local businesses"
       animation_in : "left"
       animation_out : "right"
       # available animation : left, right, up, down
       button:
         enable : true
-        label : "Apply now"
+        label : "Learn More"
         link : "contact"
 
 
@@ -43,54 +43,57 @@ banner_feature:
   image : "images/banner/banner-feature.png"
   feature_item:
     # feature item loop
-    - name : "Scholorship News"
-      icon : "ti-book" # icon pack : https://themify.me/themify-icons
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore  dolore magna aliqua. Ut enim ad"
+    - name : "Picnic"
+      icon : "ti-announcement" # icon pack : https://themify.me/themify-icons
+      content : "Join us for our spring Picnic Event at Wills Park!"
+      link: "event/event-chicken-04-2021"
 
     # feature item loop
-    - name : "Our Notice Board"
-      icon : "ti-blackboard" # icon pack : https://themify.me/themify-icons
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore  dolore magna aliqua. Ut enim ad"
+#    - name : "Alpharetta Lions Newsletter"
+#      icon : "ti-layout-cta-left" # icon pack : https://themify.me/themify-icons
+#      content : "Monthly newsletter covering past service projects, upcoming events, and monthly meetings."
 
     # feature item loop
-    - name : "Our Achievements"
-      icon : "ti-agenda" # icon pack : https://themify.me/themify-icons
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore  dolore magna aliqua. Ut enim ad"
+    - name : "Monthly Meetings"
+      icon : "ti-calendar" # icon pack : https://themify.me/themify-icons
+      content : "Monthly meetings are held at Crooked Creek Club live, with an option to attend virtually."
+      link: "event"
 
     # feature item loop
-    - name : "Admission Now"
-      icon : "ti-write" # icon pack : https://themify.me/themify-icons
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore  dolore magna aliqua. Ut enim ad"
+    - name : "Join Alpharetta Lions"
+      icon : "ti-heart" # icon pack : https://themify.me/themify-icons
+      content : "Are you interested in helping the local community while building lasting friendships?"
+      link: "contact"
 
 
 ############################## about ##################################
 about:
   enable : true
-  title : "About Educenter"
+  title : "About Alpharetta Lions Club"
   image : "images/about/about-us.jpg"
-  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat  pariatur. Excepteur sint occaecat
+  content : "Who are the Alpharetta Lions?
 
 
-  cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem "
+  We members of a service organization who enjoy having fun while we serve."
   button:
     enable : true
     label : "Learn more"
     link : "about"
 
 
-############################# Course ################################
+############################# Courses ################################
 course:
-  enable : true
-  title : "Our Course"
+  enable : false
+  title : "Upcoming Courses"
   # course item comes from "content/**/course" folder.
 
 ########################## Call to action ############################
 cta:
-  enable : true
-  subtitle : "Click to Join the Advance Workshop"
-  title : "Training In Advannce Networking"
+  enable : false
+  subtitle : "Click to Join the Alpharetta Lions Club"
+  title : "Serve Your Community"
   button:
-    enable : true
+    enable : false
     label : "join now"
     link : "contact"
 
@@ -99,14 +102,39 @@ cta:
 success_story:
   enable : true
   bg_image : "images/backgrounds/success-story.jpg"
-  title : "Success Stories"
-  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat pariatur. Excepteur sint occaecat.
-            
-            
-  ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-  dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris"
+  title : "We Serve"
+  content : "Here's an inspiring story about how Lions Club International helped a community during COVID-19."
   # video link
-  video_link : "https://www.youtube.com/watch?v=ResipmZmpDU"
+  video_link : "https://www.youtube.com/watch?v=8lC8ol3nTdg"
+
+
+############################### Sponsors ###############################
+sponsors:
+  enable : false
+  content : "Please support our sponsors"
+#  image : "images/banner/banner-feature.png"
+  feature_item:
+    # feature item loop
+    - name : "Acme Corporation"
+      icon : "ti-blackboard" # icon pack : https://themify.me/themify-icons
+      content : "Proud supplier of bird traps, rockets, and TNT."
+
+    # feature item loop
+    - name : "Crooked Creek Club"
+      icon : "ti-book" # icon pack : https://themify.me/themify-icons
+      content : "Local, members-only golf course."
+      link: crookedcreek.com
+
+    # feature item loop
+    - name : "Another Sponsor"
+      icon : "ti-agenda" # icon pack : https://themify.me/themify-icons
+      content : "Sponsor information"
+
+    # feature item loop
+    - name : "Company Name"
+      icon : "ti-write" # icon pack : https://themify.me/themify-icons
+      content : "Sponsored listing"
+
 
 
 ############################# event ################################
@@ -118,7 +146,7 @@ event:
   
 ########################### funfacts ############################
 funfacts:
-  enable : true
+  enable : false
   funfact_item:
     # funfact item loop
     - name : "TEACHERS"
@@ -140,8 +168,8 @@ funfacts:
 
 
 
-############################# blog ################################
-blog:
+############################# news ################################
+news:
   enable : true
   title : "Latest News"
-  # blog item comes from "content/**/blog" folder.
+  # news item comes from "content/**/news" folder.

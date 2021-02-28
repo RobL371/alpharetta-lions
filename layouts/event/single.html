@@ -14,53 +14,57 @@
     </div>
     <!-- event info -->
     <div class="row align-items-center mb-5">
-      <div class="col-lg-9">
-        <ul class="list-inline">
-          <li class="list-inline-item mr-xl-5 mr-4 mb-3 mb-lg-0">
-            <div class="d-flex align-items-center">
-              <i class="ti-location-pin text-primary icon-md mr-2"></i>
-              <div class="text-left">
-                <h6 class="mb-0">{{ i18n "location" | upper}}</h6>
-                <p class="mb-0">{{ .Params.Location | markdownify }}</p>
-              </div>
-            </div>
-          </li>
-          <li class="list-inline-item mr-xl-5 mr-4 mb-3 mb-lg-0">
-            <div class="d-flex align-items-center">
-              <i class="ti-calendar text-primary icon-md mr-2"></i>
-              <div class="text-left">
-                <h6 class="mb-0">{{ i18n "date" | upper}}</h6>
-                <p class="mb-0">{{ .Date.Format "02 Jan, 2006"}}</p>
-              </div>
-            </div>
-          </li>
-          <li class="list-inline-item mr-xl-5 mr-4 mb-3 mb-lg-0">
-            <div class="d-flex align-items-center">
-              <i class="ti-time text-primary icon-md mr-2"></i>
-              <div class="text-left">
-                <h6 class="mb-0">{{ i18n "time" | upper }}</h6>
-                <p class="mb-0">{{ .Date.Format "15:04 MST"}}</p>
-              </div>
-            </div>
-          </li>
-          <li class="list-inline-item mr-xl-5 mr-4 mb-3 mb-lg-0">
-            <div class="d-flex align-items-center">
-              <i class="ti-wallet text-primary icon-md mr-2"></i>
-              <div class="text-left">
-                <h6 class="mb-0">{{ i18n "entry_fee" | upper }}</h6>
-                <p class="mb-0">{{ .Params.Fee | markdownify }}</p>
-              </div>
-            </div>
-          </li>
-        </ul>
-      </div>
-      <div class="col-lg-3 text-lg-right text-left">
-        <a href="{{ .Params.Apply_url | safeURL }}" class="btn btn-primary">{{ i18n "apply_now" }}</a>
-      </div>
-      <!-- border -->
-      <div class="col-12 mt-4 order-4">
-        <div class="border-bottom border-primary"></div>
-      </div>
+        <div class="col-lg-9">
+            <ul class="list-inline">
+                <li class="list-inline-item mr-xl-5 mr-4 mb-3 mb-lg-0">
+                    <div class="d-flex align-items-center">
+                        <i class="ti-location-pin text-primary icon-md mr-2"></i>
+                        <div class="text-left">
+                            <h6 class="mb-0">{{ i18n "location" | upper}}</h6>
+                            <p class="mb-0">{{ .Params.Location | markdownify }}</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="list-inline-item mr-xl-5 mr-4 mb-3 mb-lg-0">
+                    <div class="d-flex align-items-center">
+                        <i class="ti-calendar text-primary icon-md mr-2"></i>
+                        <div class="text-left">
+                            <h6 class="mb-0">{{ i18n "date" | upper}}</h6>
+                            <p class="mb-0">{{ .Date.Format "02 Jan, 2006"}}</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="list-inline-item mr-xl-5 mr-4 mb-3 mb-lg-0">
+                    <div class="d-flex align-items-center">
+                        <i class="ti-time text-primary icon-md mr-2"></i>
+                        <div class="text-left">
+                            <h6 class="mb-0">{{ i18n "time" | upper }}</h6>
+                            <p class="mb-0">{{ dateFormat "3:04PM" .Date}}</p>
+                        </div>
+                    </div>
+                </li>
+                {{ if .Params.show_cost}}
+                <li class="list-inline-item mr-xl-5 mr-4 mb-3 mb-lg-0">
+                    <div class="d-flex align-items-center">
+                        <i class="ti-wallet text-primary icon-md mr-2"></i>
+                        <div class="text-left">
+                            <h6 class="mb-0">COST</h6>
+                            <p class="mb-0">{{ .Params.Cost | markdownify }}</p>
+                        </div>
+                    </div>
+                </li>
+                {{ end }}
+            </ul>
+        </div>
+        {{ if .Params.show_reservation}}
+        <div class="col-lg-3 text-lg-right text-left">
+            <a href="{{ .Params.Reserve_url | safeURL }}" class="btn btn-primary">Make Reservation</a>
+        </div>
+        {{ end }}
+        <!-- border -->
+        <div class="col-12 mt-4 order-4">
+            <div class="border-bottom border-primary"></div>
+        </div>
     </div>
     <!-- event details -->
     <div class="row">
@@ -69,9 +73,10 @@
       </div>
     </div>
     <!-- event speakers -->
+    {{ if .Params.show_speakers}}
     <div class="row">
       <div class="col-12">
-        <h3 class="mb-4">{{ i18n "event_speaker"}}</h3>
+        <h3 class="mb-4">Speakers</h3>
       </div>
       <!-- speakers -->
       {{ range .Params.Speaker }}
@@ -90,6 +95,7 @@
         <div class="border-bottom border-primary"></div>
       </div>
     </div>
+    {{ end }}
   </div>
 </section>
 <!-- /event single -->

@@ -5,10 +5,10 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: heading
-  label: Blog Post
+  label: Newsletter
 - type: directory
-  path: exampleSite/content/english/blog
-  label: Post (en)
+  path: exampleSite/content/english/news
+  label: News (en)
   create: documents
   match: "**/*"
   templates:
@@ -124,6 +124,8 @@ sections:
   new_doc_ext: toml
 upload_dir: exampleSite/static/images
 public_path: "/images"
+upload_dir: exampleSite/static/pdf
+public_path: "/pdf"
 front_matter_path: ''
 use_front_matter_path: false
 file_template: ":filename:"

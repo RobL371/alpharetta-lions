@@ -4,20 +4,15 @@ draft: false
 # page title background image
 bg_image: "images/backgrounds/page-title.jpg"
 # about image
-image: "images/about/about-page.jpg"
+#image: "images/about/about-page.jpg"
 # meta description
-description : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore. dolore magna aliqua. Ut enim ad minim veniam, quis nostrud."
+description : "Who are the Alpharetta Lions?"
 ---
 
-## ABOUT OUR JOURNY
+## About Alpharetta Lions
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
-et.dolore magna aliqua. Ut enim ad minim veniam, quis nostrud. Lorem ipsum dolor sit amet consectetur,
-adipisicing elit. Saepe ipsa illo quod veritatis, magni debitis fugiat dolore voluptates! Consequatur,
-aliquid. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat perferendis sint optio similique.
-Et amet magni facilis vero corporis quos.
+The Alpharetta Lions Club is a part of Lions Club International.  Serving our community since 1953 with a focus on vision and hearing needs. We meet at 6:30 P.M. on the 4th Thursday at Crooked Creek Clubhouse.
 
-exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
-in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum, dolor sit amet consectetur
-adipisicing elit. Ipsum a, facere fugit error accusamus est officiis vero in, nostrum laboriosam corrupti
-explicabo, cumque repudiandae deleniti perspiciatis quae consectetur enim. Laboriosam!
+Lions are groups of service-minded men and women who are interested in improving their communities. We are young people, families and Baby Boomers alike.
+To become a Lion is to become an active volunteer, a member of a respected international organization, a leader in your community and a friend to people in need.
+Become involved...Become a Lion!
