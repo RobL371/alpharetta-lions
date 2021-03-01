@@ -1,6 +1,6 @@
 ######################## default configuration ####################
 baseURL = "https://www.alpharettalions.com"
-title = "Alpharetta Lions"
+title = "Alpharetta Lions Club"
 theme = "alpharetta-lions"
 themesDir = "../.."
 # post pagination
@@ -9,8 +9,6 @@ paginate = "6"
 summaryLength = "10"
 # disqus short name
 #disqusShortname = "educenter" # get your shortname form here : https://disqus.com
-# disable language
-disableLanguages = [] # desable language from here
 
 
 ############################# Plugins ##############################
@@ -47,7 +45,7 @@ link = "plugins/google-map/gmap.js"
 logo = "images/logo.png"
 # Meta data
 description = "Alpharetta Lions Club Home Page"
-author = "Alpharetta Lions"
+author = "Alpharetta Lions Club"
 # contact info
 address = "Alpharetta, GA"
 mobile = ""
@@ -93,22 +91,22 @@ link = "https://www.facebook.com/AlpharettaLionsClub"
 [[params.social]]
 title = "twitter"
 icon = "ti-twitter-alt" # themify icon : https://themify.me/themify-icons
-link = "https://twitter.com/todo"
+link = "https://twitter.com/AlpharettaLions"
 
 [[params.social]]
 title = "instagram"
 icon = "ti-instagram" # themify icon : https://themify.me/themify-icons
-link = "https://www.instagram.com/todo"
+link = "https://www.instagram.com/alpharettalions/"
 
 #[[params.social]]
 #title = "github"
 #icon = "ti-github" # themify icon : https://themify.me/themify-icons
 #link = "#"
 
-[[params.social]]
-title = "linkedin"
-icon = "ti-linkedin" # themify icon : https://themify.me/themify-icons
-link = "https://www.linkedin.com/todo"
+#[[params.social]]
+#title = "linkedin"
+#icon = "ti-linkedin" # themify icon : https://themify.me/themify-icons
+#link = "https://www.linkedin.com/todo"
 
 
 ################################### English language #####################################
