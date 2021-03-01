@@ -394,17 +394,34 @@ textarea.form-control {
   .content ul li {
     position: relative;
     padding-left: 20px;
-    margin-bottom: 10px;
+    margin-bottom: 8px;
     list-style-type: none; }
     .content ul li::before {
       position: absolute;
-      content: "\e65d";
+      content: "\e724";
       font-family: "themify";
-      font-size: 14px;
+      font-size: 12px;
       left: 0;
       top: 1px;
       color: #ffbc3b;
       transition: .3s ease; }
+    .content ul li ul {
+      padding-left: 0;
+      padding-top: 10px; }
+      .content ul li ul li {
+        position: relative;
+        padding-left: 20px;
+        margin-bottom: 2px;
+        list-style-type: none; }
+        .content ul li ul li::before {
+          position: absolute;
+          content: "\e724";
+          font-family: "themify";
+          font-size: 10px;
+          left: 0;
+          top: 2px;
+          color: #ffbc3b;
+          transition: .3s ease; }
 
 .content table {
   text-align: left;
