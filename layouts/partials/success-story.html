@@ -11,7 +11,7 @@
       </div>
       <div class="col-lg-6 col-sm-8">
         <div class="bg-white p-5">
-          <h2 class="section-title">{{ .title | markdownify }}</h2>
+          <h2 class="section-title"><a class="venobox" href="{{ .video_link | safeURL }}" data-vbtype="video">{{ .title | markdownify }}</a></h2>
           <p><a class="venobox" href="{{ .video_link | safeURL }}" data-vbtype="video">{{ .content | markdownify }}</a></p>
         </div>
       </div>
