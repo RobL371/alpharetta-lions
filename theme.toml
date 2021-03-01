@@ -1,15 +1,15 @@
-name = "Educenter Hugo"
+name = "Alpharetta Lions Hugo"
 license = "CC BY 3.0"
 licenselink = "https://creativecommons.org/licenses/by/3.0/"
-description = "Hugo port of the Themefisher’s Educenter theme"
+description = "Derived from Themefisher’s Educenter theme"
 homepage = "https://gethugothemes.com/products/educenter-hugo/"
 tags = ["news",'google-analytics', 'fast', 'modern', 'minimal', 'minimalistic', 'business', 'education', 'white', 'light', 'multilingual', "bootstrap", "company", "portfolio", "projects", "responsive", "themefisher", "gethugothemes"]
 features = ["news", "company", "responsive", "seo-friendly"]
 min_version = "0.70.0"
 
 [author]
-  name = "Themefisher"
-  homepage = "https://themefisher.com/"
+  name = "Alpharetta Lions Club"
+  homepage = "https://www.alpharettalions.com/"
 
 [original]
   name = "Educenter"
