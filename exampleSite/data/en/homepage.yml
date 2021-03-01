@@ -146,23 +146,23 @@ event:
   
 ########################### funfacts ############################
 funfacts:
-  enable : false
+  enable : true
   funfact_item:
     # funfact item loop
-    - name : "TEACHERS"
-      count : "60"
+    - name : "LIONS"
+      count : "1400000"
 
     # funfact item loop
-    - name : "COURSES"
-      count : "50"
+    - name : "CLUBS"
+      count : "48000"
 
     # funfact item loop
-    - name : "STUDENTS"
-      count : "1000"
+    - name : "NATIONS"
+      count : "210"
 
     # funfact item loop
-    - name : "SATISFIED CLIENT"
-      count : "1400"
+    - name : "YEARS"
+      count : "103"
 
 # funfact is for about page
 
