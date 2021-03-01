@@ -64,12 +64,14 @@
   });
 
   //  Count Up
+  var started_counter = false;
   function counter() {
     var oTop;
     if ($('.count').length !== 0) {
       oTop = $('.count').offset().top - window.innerHeight;
     }
-    if ($(window).scrollTop() > oTop) {
+    if (started_counter == false && $(window).scrollTop() > oTop) {
+      started_counter = true;
       $('.count').each(function () {
         var $this = $(this),
           countTo = $this.attr('data-count');
@@ -81,10 +83,10 @@
           duration: 1000,
           easing: 'swing',
           step: function () {
-            $this.text(Math.floor(this.countNum));
+            $this.text(Math.floor(this.countNum).toLocaleString());
           },
           complete: function () {
-            $this.text(this.countNum);
+            $this.text(this.countNum.toLocaleString());
           }
         });
       });
