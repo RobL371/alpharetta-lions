@@ -319,90 +319,113 @@ textarea.form-control{
 
 
 .content {
-  * {
-    margin-bottom: 20px;
-  }
-
-  a {
-    text-decoration: underline;
-  }
-
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    margin-bottom: 10px;
-  }
-
-  ol {
-    padding-left: 20px;
-  }
-
-  ul {
-    padding-left: 0;
-
-    li {
-      position: relative;
-      padding-left: 20px;
-      margin-bottom: 10px;
-      list-style-type: none;
-
-      &::before {
-        position: absolute;
-        content: "\e65d";
-        font-family: $icon-font;
-        font-size: 14px;
-        left: 0;
-        top: 1px;
-        color: $primary-color;
-        transition: .3s ease;
-      }
-    }
-  }
-
-  table {
-    text-align: left;
-    width: 100%;
-    max-width: 100%;
-    margin-bottom: 1rem;
-    border: 1px solid #dee2e6;
-
-    th,
-    td {
-      padding: .75rem;
-      vertical-align: top;
-      border: 1px solid #dee2e6
+    * {
+        margin-bottom: 20px;
     }
 
-    thead {
-      background: darken($color: $light, $amount: 2);
+    a {
+        text-decoration: underline;
     }
 
-    tbody {
-      background: $light;
-
-      td {
-        text-align: left !important;
-      }
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        margin-bottom: 10px;
     }
-  }
 
-
-  blockquote {
-    p {
-      margin-bottom: 0;
-      color: $text-color;
-      font-style: italic !important;
+    ol {
+        padding-left: 20px;
     }
-  }
+
+    ul {
+        padding-left: 0;
+
+        li {
+            position: relative;
+            padding-left: 20px;
+            margin-bottom: 8px;
+            list-style-type: none;
+
+            &::before {
+                position: absolute;
+                content: "\e724";
+                font-family: $icon-font;
+                font-size: 12px;
+                left: 0;
+                top: 1px;
+                color: $primary-color;
+                transition: .3s ease;
+            }
+
+            ul {
+                padding-left: 0;
+                padding-top: 10px;
+
+                li {
+                    position: relative;
+                    padding-left: 20px;
+                    margin-bottom: 2px;
+                    list-style-type: none;
+
+                    &::before {
+                        position: absolute;
+                        content: "\e724";
+                        font-family: $icon-font;
+                        font-size: 10px;
+                        left: 0;
+                        top: 2px;
+                        color: $primary-color;
+                        transition: .3s ease;
+                    }
+                }
+            }
+        }
+    }
+
+    table {
+        text-align: left;
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 1rem;
+        border: 1px solid #dee2e6;
+
+        th,
+        td {
+            padding: .75rem;
+            vertical-align: top;
+            border: 1px solid #dee2e6
+        }
+
+        thead {
+            background: darken($color: $light, $amount: 2);
+        }
+
+        tbody {
+            background: $light;
+
+            td {
+                text-align: left !important;
+            }
+        }
+    }
 
 
-  pre {
-    padding: 10px 20px;
-    background: $light;
-  }
+    blockquote {
+        p {
+            margin-bottom: 0;
+            color: $text-color;
+            font-style: italic !important;
+        }
+    }
+
+
+    pre {
+        padding: 10px 20px;
+        background: $light;
+    }
 }
 
 .teacher-thumb-sm{
