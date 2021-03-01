@@ -90,6 +90,9 @@
       });
     }
   }
+  $(window).on('load', function () {
+    counter();
+  });
   $(window).on('scroll', function () {
     counter();
   });
