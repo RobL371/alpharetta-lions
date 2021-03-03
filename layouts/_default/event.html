@@ -4,9 +4,9 @@
             <img class="card-img-top rounded-0" src="{{ .Params.image | relURL }}" alt="{{ .Title }}">
             {{ if isset .Params "enddate" }}
                 {{ if ne (.Date.Format "Jan") (dateFormat "Jan" .Params.EndDate)}}
-                <div class="card-date"><span>{{ .Date.Format "02" }} - {{ dateFormat "02" .Params.EndDate }}</span><br>{{ .Date.Format "Jan" }}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{ dateFormat "Jan" .Params.EndDate }}</div>
+                <div class="card-date"><span>{{ .Date.Format "2" }} - {{ dateFormat "2" .Params.EndDate }}</span><br>{{ .Date.Format "Jan" }}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{ dateFormat "Jan" .Params.EndDate }}</div>
                 {{ else}}
-                <div class="card-date"><span>{{ .Date.Format "02" }} - {{ dateFormat "02" .Params.EndDate }}</span><br>{{ .Date.Format "Jan" }}</div>
+                <div class="card-date"><span>{{ .Date.Format "2" }} - {{ dateFormat "2" .Params.EndDate }}</span><br>{{ .Date.Format "Jan" }}</div>
                 {{ end }}
             {{ else }}
             <div class="card-date"><span>{{ .Date.Format "02" }}</span><br>{{ .Date.Format "Jan" }}</div>
