@@ -3,7 +3,7 @@ title: "Picnic"
 # Schedule page publish date
 publishDate: "2021-02-27T00:00:00Z"
 # event date
-date: "2021-04-24T17:00:00"
+date: "2021-04-24T16:00:00"
 # post save as draft
 draft: false
 # page title background image
