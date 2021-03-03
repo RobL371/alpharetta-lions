@@ -1,21 +1,22 @@
 ---
-title: "Chicken at the Park"
+title: "Salmon & Ribs"
 # Schedule page publish date
-publishDate: "2021-02-27T00:00:00Z"
+publishDate: "2021-02-26T00:00:00Z"
 # event date
-date: "2021-04-24T16:00:00"
+date: "2021-04-01T8:00:00"
+enddate: "2021-04-03T8:00:00"
 # post save as draft
 draft: false
 # page title background image
 bg_image: "images/backgrounds/page-title.jpg"
 # meta description
-description : "Join us for a Fried Chicken Picnic Dinner"
+description : "Volunteers Needed!"
 # Event image
-image: "images/events/event-chicken.jpg"
+image: "images/events/event-road-cleanup.jpg"
 # location
 location: "Alpharetta, GA"
 # entry fee
-show_cost: true
+show_cost: false
 cost: "TBD"
 # apply url
 show_reservation: false
@@ -47,10 +48,22 @@ show_speakers: false
 type: "event"
 ---
 
-### Chicken at the Park
+### Ribs and Salmon Smoking
 
-Wills Park Lions Pavilion. 4:00 pm - 7:00 pm.
+Alpharetta Lions Club is hosting a smoked salmon and rib fundraiser to be picked up on April 3, 2021.
+* Salmon $18 per pound.  *It is best to order by the slab (typically 2 - 3 pounds each), but you may order by the pound.*
+* Ribs $20 per rack.
 
-We'll eat at 5:00 pm. Volunteers needed for setting up and cleaning up.
+To order, please contact Mark Pamperin or email smoked@alpharettalions.com
 
-*This will take the place of the regular April meeting.*
+#### Thursday, April 1st
+
+Marinating salmon at Andrews residence. Volunteers needed.
+
+#### Friday, April 2nd
+
+Cooking of ribs and salmon at Andrews residence. Volunteers needed.
+
+#### Saturday, April 3rd
+
+Delivering of ribs and salmon. Volunteers needed.
