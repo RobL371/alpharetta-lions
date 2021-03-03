@@ -4,6 +4,7 @@ title: "District Convention"
 publishDate: "2021-02-27T00:00:00Z"
 # event date
 date: "2021-03-26T13:00:00Z"
+enddate: "2021-03-28T12:00:00Z"
 # post save as draft
 draft: false
 # page title background image

@@ -29,8 +29,17 @@
                     <div class="d-flex align-items-center">
                         <i class="ti-calendar text-primary icon-md mr-2"></i>
                         <div class="text-left">
+                            {{ if isset .Params "enddate" }}
+                            <h6 class="mb-0">DATES</h6>
+                            {{ if ne (.Date.Format "Jan") (dateFormat "Jan" .Params.EndDate)}}
+                            <p class="mb-0">{{ .Date.Format "02 Jan"}} - {{ dateFormat "02 Jan, 2006 " .Params.EndDate }}</p>
+                            {{else}}
+                            <p class="mb-0">{{ .Date.Format "02"}} - {{ dateFormat "02 Jan, 2006 " .Params.EndDate }}</p>
+                            {{end}}
+                            {{else}}
                             <h6 class="mb-0">{{ i18n "date" | upper}}</h6>
                             <p class="mb-0">{{ .Date.Format "02 Jan, 2006"}}</p>
+                            {{end}}
                         </div>
                     </div>
                 </li>
