@@ -12,7 +12,7 @@ bg_image: "images/backgrounds/page-title.jpg"
 # meta description
 description : "Volunteers Needed!"
 # Event image
-image: "images/events/event-road-cleanup.jpg"
+image: "images/events/event-salmonribs.jpg"
 # location
 location: "Alpharetta, GA"
 # entry fee
