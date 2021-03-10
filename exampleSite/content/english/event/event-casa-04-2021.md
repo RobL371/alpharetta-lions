@@ -9,7 +9,7 @@ draft: false
 # page title background image
 bg_image: "images/backgrounds/page-title.jpg"
 # meta description
-description : "Join us for a Fried Chicken Picnic Dinner"
+description : "Lions day at Casa Nuova"
 # Event image
 image: "images/events/event-casa.jpg"
 # location
