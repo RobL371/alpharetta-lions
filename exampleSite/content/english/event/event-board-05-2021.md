@@ -51,4 +51,4 @@ type: "event"
 
 The Board of directors meeting is open to all Alpharetta Lions Club members.  All members present are entitled to vote. Arrive at 6:30PM for social time and dinner.
 
-Information about joining virtually will be provided a few days in advance of the meeting.
+#### We will be using Microsoft Teams for this meeting. [Click here to join the meeting.](https://teams.microsoft.com/l/meetup-join/19%3a79cfebcd887a4d7b967bfe93b4e766b1%40thread.tacv2/1615340229042?context=%7b%22Tid%22%3a%22de8aba37-a543-4dce-af2e-e4dc7b6d1d8b%22%2c%22Oid%22%3a%22bbd80b62-255a-4e47-b25e-750e08d0d37a%22%7d)
