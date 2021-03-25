@@ -4,6 +4,17 @@ slider:
   bg_image : "images/banner/banner-1.jpg"
   slider_item:
     # slider item loop
+#    - title : "Looking for tonight's board meeting?"
+#      content : "We'll be trying out Microsoft Teams for the first time tonight!"
+#      animation_in : "left"
+#      animation_out : "right"
+#      # available animation : left, right, up, down
+#      button:
+#        enable : true
+#        label : "Click here"
+#        link : "event/event-board-03-2021"
+
+    # slider item loop
     - title : "We serve! Helping our Community"
       content : "The Alpharetta Lions Club is active in community events."
       animation_in : "left"
