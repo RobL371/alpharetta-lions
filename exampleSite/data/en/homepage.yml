@@ -4,37 +4,37 @@ slider:
   bg_image : "images/banner/banner-1.jpg"
   slider_item:
     # slider item loop
-    - title : "Looking for tonight's monthly club meeting?"
-      content : "We'll be using Microsoft Teams!"
-      animation_in : "left"
-      animation_out : "right"
-      # available animation : left, right, up, down
-      button:
-        enable : true
-        label : "Click here to join"
-        link : "event/event-meeting-03-2021"
+#    - title : "Looking for tonight's monthly club meeting?"
+#      content : "We'll be using Microsoft Teams!"
+#      animation_in : "left"
+#      animation_out : "right"
+#      # available animation : left, right, up, down
+#      button:
+#        enable : true
+#        label : "Click here to join"
+#        link : "event/event-meeting-03-2021"
+
+#    # slider item loop
+#    - title : "We serve! Helping our Community"
+#      content : "The Alpharetta Lions Club is active in community events."
+#      animation_in : "left"
+#      animation_out : "right"
+#      # available animation : left, right, up, down
+#      button:
+#        enable : true
+#        label : "Learn More"
+#        link : "contact"
 
     # slider item loop
-    - title : "We serve! Helping our Community"
-      content : "The Alpharetta Lions Club is active in community events."
+    - title : "Interested in Joining the Alpharetta Lions Club?"
+      content : ""  # "Get Involved!"
       animation_in : "left"
       animation_out : "right"
       # available animation : left, right, up, down
       button:
         enable : true
         label : "Learn More"
-        link : "contact"
-
-    # slider item loop
-    - title : "Joining the Alpharetta Lions Club"
-      content : "Find out more!"
-      animation_in : "left"
-      animation_out : "right"
-      # available animation : left, right, up, down
-      button:
-        enable : true
-        label : "Learn More"
-        link : "contact"
+        link : "join"
 
     # slider item loop
     - title : "Sponsoring the Alpharetta Lions Club Foundation"

@@ -125,54 +125,34 @@ copyright = "Copyright &copy; 2021 Alpharetta Lions Club Foundation.  Hugo theme
 
 # main menu
 [[Languages.en.menu.main]]
-name = "About"
-url = "about"
+name = "Join"
+url = "join"
 weight = 1
 
 [[Languages.en.menu.main]]
-name = "Events"
-url = "event"
-weight = 2
+weight = 3
+name = "Happenings"
+hasChildren = true
 
-#[[Languages.en.menu.main]]
-#weight = 3
-#name = "Pages"
-#hasChildren = true
-#
-#  [[Languages.en.menu.main]]
-#  parent = "Pages"
-#  name = "teacher"
-#  url = "teacher"
-#
-#  [[Languages.en.menu.main]]
-#  parent = "Pages"
-#  name = "notice"
-#  url = "notice"
-#
-#  [[Languages.en.menu.main]]
-#  parent = "Pages"
-#  name = "event"
-#  url = "event"
-#
-#  [[Languages.en.menu.main]]
-#  parent = "Pages"
-#  name = "scholarship"
-#  url = "scholarship"
-#
-#  [[Languages.en.menu.main]]
-#  parent = "Pages"
-#  name = "research"
-#  url = "research"
+  [[Languages.en.menu.main]]
+  parent = "Happenings"
+  name = "Events"
+  url = "event"
 
-[[Languages.en.menu.main]]
-name = "News"
-url = "news"
-weight = 4
+  [[Languages.en.menu.main]]
+  parent = "Happenings"
+  name = "News"
+  url = "news"
   
 [[Languages.en.menu.main]]
 name = "Contact"
 url = "contact"
 weight = 5
+
+[[Languages.en.menu.main]]
+name = "About"
+url = "about"
+weight = 6
 
 
 # footer menu

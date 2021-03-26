@@ -1,0 +1,27 @@
+{{ define "main" }}
+
+{{ $data := index site.Data site.Language.Lang }}
+
+<!-- join-->
+<section class="section">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 content">
+                {{ with .Params.image }}
+                <img class="img-fluid w-100 mb-4" src="{{ . | relURL }}" alt="about image">
+                {{ end }}
+                {{ .Content }}
+                <!-- item -->
+                {{ range .Data.Pages}}
+                <div class="col-lg-4 col-sm-6 mb-5">
+                    {{ .Render "about" }}
+                </div>
+                {{ end }}
+            </div>
+        </div>
+    </div>
+</section>
+<!-- /about -->
+
+
+{{ end }}
