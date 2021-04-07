@@ -1,5 +1,5 @@
 ---
-title: "NO APRIL MEETING"
+title: "APRIL MEETING WILL BE ON SATURDAY"
 # Schedule page publish date
 publishDate: "2021-02-27T00:00:00Z"
 # event date

@@ -4,15 +4,15 @@ slider:
   bg_image : "images/banner/banner-1.jpg"
   slider_item:
     # slider item loop
-#    - title : "Looking for tonight's monthly club meeting?"
-#      content : "We'll be using Microsoft Teams!"
-#      animation_in : "left"
-#      animation_out : "right"
-#      # available animation : left, right, up, down
-#      button:
-#        enable : true
-#        label : "Click here to join"
-#        link : "event/event-meeting-03-2021"
+    - title : "Smoked Salmon and Ribs Fundraiser"
+      content : "Order deadline is March 31"
+      animation_in : "left"
+      animation_out : "right"
+      # available animation : left, right, up, down
+      button:
+        enable : true
+        label : "More Info"
+        link : "event/event-salmon-04-2021"
 
 #    # slider item loop
 #    - title : "We serve! Helping our Community"

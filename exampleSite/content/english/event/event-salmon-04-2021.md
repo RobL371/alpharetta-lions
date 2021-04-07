@@ -54,7 +54,7 @@ Alpharetta Lions Club is hosting a smoked salmon and rib fundraiser to be picked
 * Salmon $18 per pound.  *It is best to order by the slab (typically 2 - 3 pounds each), but you may order by the pound.*
 * Ribs $20 per rack.
 
-To order, please contact Mark Pamperin or email smoked@alpharettalions.com
+To order, please contact Mark Pamperin or email smoked@alpharettalions.com.  Order deadline is Wednesday, March 31.
 
 #### Thursday, April 1st
 
