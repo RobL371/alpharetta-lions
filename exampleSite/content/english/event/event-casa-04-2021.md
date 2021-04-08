@@ -16,7 +16,7 @@ image: "images/events/event-casa.jpg"
 location: "Alpharetta, GA"
 # entry fee
 show_cost: true
-cost: "TBD"
+cost: "$Varies"
 # apply url
 show_reservation: false
 apply_url : "#"
@@ -46,8 +46,6 @@ show_speakers: false
 # type
 type: "event"
 ---
-
-### Casa Nuova Fundraiser
 
 You can dine in, buy a gift certificate, buy wine, or buy take out (curbside delivery only).
 All this from the comfort of your home! A percentage of sales this day will benefit "The Drake House" shelter for women.

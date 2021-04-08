@@ -47,8 +47,6 @@ show_speakers: false
 type: "event"
 ---
 
-### Chicken at the Park
-
 Wills Park Lions Pavilion. 4:00 pm - 7:00 pm.
 
 We'll eat at 5:00 pm. Volunteers needed for setting up and cleaning up.

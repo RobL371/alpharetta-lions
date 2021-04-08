@@ -47,6 +47,4 @@ show_speakers: false
 type: "event"
 ---
 
-### About Event
-
 More details about the road cleanup will be posted soon!

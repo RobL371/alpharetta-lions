@@ -47,6 +47,4 @@ show_speakers: false
 type: "event"
 ---
 
-### About Event
-
 Please join us instead for the [Picnic on Saturday, April 24](/event/event-chicken-04-2021) following our [Road Cleanup Event](/event/event-road-cleanup-04-2021).
