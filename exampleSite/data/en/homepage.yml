@@ -4,15 +4,25 @@ slider:
   bg_image : "images/banner/banner-1.jpg"
   slider_item:
     # slider item loop
-    - title : "Smoked Salmon and Ribs Fundraiser"
-      content : "Order deadline is March 31"
+    - title : "Tonight's Board Meeting"
+      content : "We will use Microsoft Teams."
       animation_in : "left"
       animation_out : "right"
       # available animation : left, right, up, down
       button:
         enable : true
-        label : "More Info"
-        link : "event/event-salmon-04-2021"
+        label : "Meeting Info"
+        link : "event/event-board-04-2021"
+
+#    - title : "Smoked Salmon and Ribs Fundraiser"
+#      content : "Order deadline is March 31"
+#      animation_in : "left"
+#      animation_out : "right"
+#      # available animation : left, right, up, down
+#      button:
+#        enable : true
+#        label : "More Info"
+#        link : "event/event-salmon-04-2021"
 
 #    # slider item loop
 #    - title : "We serve! Helping our Community"
