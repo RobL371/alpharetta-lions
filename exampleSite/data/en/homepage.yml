@@ -4,8 +4,8 @@ slider:
   bg_image : "images/banner/banner-1.jpg"
   slider_item:
     # slider item loop
-    - title : "Tonight's Board Meeting"
-      content : "We will use Microsoft Teams."
+    - title : "The April Board Meeting has been postponed"
+      content : "The meeting will be on April 15, 2021."
       animation_in : "left"
       animation_out : "right"
       # available animation : left, right, up, down

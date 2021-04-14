@@ -1,9 +1,9 @@
 ---
-title: "Monthly Board Meeting"
+title: "April Board Meeting: postponed"
 # Schedule page publish date
 publishDate: "2021-02-27T00:00:00Z"
 # event date
-date: "2021-04-08T19:00:00"
+date: "2021-04-15T19:00:00"
 # post save as draft
 draft: false
 # page title background image
@@ -47,6 +47,9 @@ show_speakers: false
 type: "event"
 ---
 
+#### The April board meeting has been postponed until April 15!
+
 The Board of directors meeting is open to all Alpharetta Lions Club members.  All members present are entitled to vote. Arrive at 6:30PM for social time and dinner.
+
 
 #### We will be using Microsoft Teams for this meeting. [Click here to join the meeting.](https://teams.microsoft.com/l/meetup-join/19%3a79cfebcd887a4d7b967bfe93b4e766b1%40thread.tacv2/1615340229042?context=%7b%22Tid%22%3a%22de8aba37-a543-4dce-af2e-e4dc7b6d1d8b%22%2c%22Oid%22%3a%22bbd80b62-255a-4e47-b25e-750e08d0d37a%22%7d)
