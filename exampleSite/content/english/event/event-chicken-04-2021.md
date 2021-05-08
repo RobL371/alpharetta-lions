@@ -1,22 +1,22 @@
 ---
-title: "Chicken at the Park"
+title: "Chicken at the Park TIME & PLACE CHANGE"
 # Schedule page publish date
 publishDate: "2021-02-27T00:00:00Z"
 # event date
-date: "2021-04-24T16:00:00"
+date: "2021-04-24T12:00:00"
 # post save as draft
 draft: false
 # page title background image
 bg_image: "images/backgrounds/page-title.jpg"
 # meta description
-description : "Join us for a Fried Chicken Picnic Dinner"
+description : "Join us for a Fried Chicken LUNCH"
 # Event image
 image: "images/events/event-chicken.jpg"
 # location
-location: "Alpharetta, GA"
+location: "Crooked Creek"
 # entry fee
 show_cost: true
-cost: "TBD"
+cost: "$20"
 # apply url
 show_reservation: false
 apply_url : "#"
@@ -47,8 +47,8 @@ show_speakers: false
 type: "event"
 ---
 
-Wills Park Lions Pavilion. 4:00 pm - 7:00 pm.
+#### TIME & PLACE CHANGE DUE TO WEATHER.
 
-We'll eat at 5:00 pm. Volunteers needed for setting up and cleaning up.
+Crooked Creek Club, noon!
 
 *This will take the place of the regular April meeting.*
