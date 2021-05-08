@@ -1,9 +1,9 @@
 ---
-title: "Road Cleanup -- POSTPONED"
+title: "Road Cleanup -- New Date"
 # Schedule page publish date
 publishDate: "2021-02-26T00:00:00Z"
 # event date
-date: "2021-04-24T8:30:00"
+date: "2021-05-22T8:30:00"
 # post save as draft
 draft: false
 # page title background image
@@ -47,7 +47,7 @@ show_speakers: false
 type: "event"
 ---
 
-## Road cleanup has been postponed.  A new date will be announced.
+## Road cleanup has been rescheduled to May 22!
 
 Meet at Maple Street Biscuit Company at the corner of Milton Ave and Roswell Street at 8:30 AM!
 

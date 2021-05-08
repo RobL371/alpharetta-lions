@@ -4,15 +4,25 @@ slider:
   bg_image : "images/banner/banner-1.jpg"
   slider_item:
     # slider item loop
-    - title : "The April Board Meeting has been postponed"
-      content : "The meeting will be on April 15, 2021."
+    - title : "Register now for State Convention!"
+      content : "June 4-6 at the Sheraton Atlanta Hotel"
       animation_in : "left"
       animation_out : "right"
       # available animation : left, right, up, down
       button:
         enable : true
-        label : "Meeting Info"
-        link : "event/event-board-04-2021"
+        label : "Register"
+        link : "event/event-state-conv-06-2021"
+
+#    - title : "Saturday's Road Cleanup Postponed"
+#      content : "Due to impending weather"
+#      animation_in : "left"
+#      animation_out : "right"
+#      # available animation : left, right, up, down
+#      button:
+#        enable : true
+#        label : "Meeting Info"
+#        link : "event/event-road-cleanup-04-2021"
 
 #    - title : "Smoked Salmon and Ribs Fundraiser"
 #      content : "Order deadline is March 31"
@@ -64,10 +74,10 @@ banner_feature:
   image : "images/banner/banner-feature.png"
   feature_item:
     # feature item loop
-    - name : "Picnic"
+    - name : "State Convention"
       icon : "ti-announcement" # icon pack : https://themify.me/themify-icons
-      content : "Join us for our spring Picnic Event at Wills Park!"
-      link: "event/event-chicken-04-2021"
+      content : "Join us for the Georgia State Convention in Atlanta, June 4-6!"
+      link: "event/event-state-conv-06-2021"
 
     # feature item loop
 #    - name : "Alpharetta Lions Newsletter"

@@ -49,4 +49,4 @@ type: "event"
 
 Arrive at 6:30PM for social hour.  Dinner is served at 7PM with the program to follow.  We will have a special guest speaker for Memorial Day.
 
-#### We will be using Microsoft Teams for this meeting. [Click here to join the meeting.](https://teams.microsoft.com/l/meetup-join/19%3a2637a278a5874459b1524e377b15ac88%40thread.tacv2/1616631438471?context=%7b%22Tid%22%3a%22de8aba37-a543-4dce-af2e-e4dc7b6d1d8b%22%2c%22Oid%22%3a%22bbd80b62-255a-4e47-b25e-750e08d0d37a%22%7d)
+We will no longer be broadcasting an online version of the meeting.  If you have a special need to participate remotely for a specific meeting, please contact Rob Lefebvre.

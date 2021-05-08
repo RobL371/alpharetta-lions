@@ -43,6 +43,8 @@
                         </div>
                     </div>
                 </li>
+                {{ if isset .Params "hide_time" }}
+                {{else}}
                 <li class="list-inline-item mr-xl-5 mr-4 mb-3 mb-lg-0">
                     <div class="d-flex align-items-center">
                         <i class="ti-time text-primary icon-md mr-2"></i>
@@ -52,6 +54,7 @@
                         </div>
                     </div>
                 </li>
+                {{end}}
                 {{ if .Params.show_cost}}
                 <li class="list-inline-item mr-xl-5 mr-4 mb-3 mb-lg-0">
                     <div class="d-flex align-items-center">
