@@ -24,9 +24,9 @@ apply_url : "#"
 show_speakers: true
 speaker:
   # speaker loop
-  - name : "Special Memorial Day Speaker"
-#    image : "images/event-speakers/speaker-1.jpg"
-    designation : "Guest"
+  - name : "Harold Earls"
+    image : "images/events/harold-earls.png"
+    designation : "Special Memorial Day Speaker"
 #
 #  # speaker loop
 #  - name : "John Doe"
@@ -47,6 +47,24 @@ speaker:
 type: "event"
 ---
 
-Arrive at 6:30PM for social hour.  Dinner is served at 7PM with the program to follow.  We will have a special guest speaker for Memorial Day.
+Arrive at 6:30PM for social hour.  Dinner is served at 7PM with the program to follow.  We will have a special guest speaker for Memorial Day!
+
+Harold Earls is a former Airborne Ranger qualified Captain that served as the Commander of the Guard at the Tomb of the Unknown Soldier. Prior to that, He led the first Army team and a combat wounded amputee to the summit of Mount Everest. Harold was an All American Captain of the West Point Baseball team, recipient of the George Smythe Leadership Award and twice named ABC News Person of the week.
+
+Most recently, he wrote a book, alongside his wife Rachel, titled: A Higher Calling: which has gone on to become a USA Today National Bestseller. His family has a popular youtube channel, Earls Family Vlogs, with more than half a million followers, where they share their daily life and faith as a family. He is a 9th generation Georgian, runs a digital media company and plans to continue a life of public service in whichever way God leads his family next.
+
+
+More information about Harold:
+
+* Commander of the Guard: https://www.instagram.com/p/B_4-pleAp1R/ 
+
+* Youtube: https://www.youtube.com/watch?v=MXq6dieHMNM 
+
+* Everest: https://abcnews.go.com/International/us-soldiers-recount-harrowing-descent-mt-everest/story?id=39399897 
+
+* A Higher Calling: https://www.earls.org/ 
+
+
+---------
 
 We will no longer be broadcasting an online version of the meeting.  If you have a special need to participate remotely for a specific meeting, please contact Rob Lefebvre.
