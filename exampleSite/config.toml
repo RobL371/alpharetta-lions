@@ -136,13 +136,21 @@ hasChildren = true
 
   [[Languages.en.menu.main]]
   parent = "Happenings"
+  weight = 1
   name = "Events"
   url = "event"
 
   [[Languages.en.menu.main]]
   parent = "Happenings"
+  weight = 3
   name = "News"
   url = "news"
+  
+  [[Languages.en.menu.main]]
+  parent = "Happenings"
+  weight = 2
+  name = "Fundraisers"
+  url = "fundraiser"
   
 [[Languages.en.menu.main]]
 name = "Contact"

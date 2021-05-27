@@ -1,0 +1,24 @@
+<div class="card border-0 rounded-0 hover-shadow">
+    <a href="{{ .Permalink }}">
+        <div class="card-img position-relative">
+            <img class="card-img-top rounded-0" src="{{ .Params.image | relURL }}" alt="{{ .Title }}">
+            {{ if isset .Params "hide_date" }}
+            {{else}}
+            {{ if isset .Params "enddate" }}
+            {{ if ne (.Date.Format "Jan") (dateFormat "Jan" .Params.EndDate)}}
+            <div class="card-date"><span>{{ .Date.Format "2" }} - {{ dateFormat "2" .Params.EndDate }}</span><br>{{ .Date.Format "Jan" }}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{ dateFormat "Jan" .Params.EndDate }}</div>
+            {{ else}}
+            <div class="card-date"><span>{{ .Date.Format "2" }} - {{ dateFormat "2" .Params.EndDate }}</span><br>{{ .Date.Format "Jan" }}</div>
+            {{ end }}
+            {{ else }}
+            <div class="card-date"><span>{{ .Date.Format "02" }}</span><br>{{ .Date.Format "Jan" }}</div>
+            {{ end }}
+            {{end}}
+        </div>
+        <div class="card-body">
+            <!-- location -->
+            <p><i class="ti-location-pin text-primary mr-2"></i>{{ .Params.Location | markdownify }}</p>
+            <h4 class="card-title">{{ .Title }}</h4>
+        </div>
+    </a>
+</div>

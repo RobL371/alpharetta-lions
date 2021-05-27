@@ -1,0 +1,17 @@
+{{ define "main" }}
+
+<!-- fundraisers -->
+<section class="section">
+    <div class="container">
+        <div class="row">
+            <!-- fundraiser -->
+            {{ range .Data.Pages.ByDate}}
+            <div class="col-lg-4 col-sm-6 mb-5">
+                {{ .Render "fundraiser" }}
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</section>
+<!-- /fundraisers -->
+{{ end }}

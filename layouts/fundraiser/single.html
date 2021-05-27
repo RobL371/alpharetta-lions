@@ -1,0 +1,137 @@
+{{ define "main" }}
+
+<!-- fundraiser single -->
+<section class="section-sm">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h2 class="section-title">{{ .Title }}</h2>
+            </div>
+            <!-- fundraiser image -->
+            <div class="col-12 mb-4">
+                <img style="height: 250px;width: 40%;object-fit: contain;" src="{{ .Params.image | relURL }}" alt="{{ .Title }}" class="img-fluid w-40">
+            </div>
+        </div>
+        <!-- fundraiser info -->
+        <div class="row align-items-center mb-5">
+            <div class="col-lg-9">
+                <ul class="list-inline">
+                    <li class="list-inline-item mr-xl-5 mr-4 mb-3 mb-lg-0">
+                        <div class="d-flex align-items-center">
+                            <i class="ti-location-pin text-primary icon-md mr-2"></i>
+                            <div class="text-left">
+                                <h6 class="mb-0">{{ i18n "location" | upper}}</h6>
+                                <p class="mb-0">{{ .Params.Location | markdownify }}</p>
+                            </div>
+                        </div>
+                    </li>
+                    {{ if isset .Params "hide_date" }}
+                    {{else}}
+                    <li class="list-inline-item mr-xl-5 mr-4 mb-3 mb-lg-0">
+                        <div class="d-flex align-items-center">
+                            <i class="ti-calendar text-primary icon-md mr-2"></i>
+                            <div class="text-left">
+                                {{ if isset .Params "enddate" }}
+                                <h6 class="mb-0">DATES</h6>
+                                {{ if ne (.Date.Format "Jan") (dateFormat "Jan" .Params.EndDate)}}
+                                <p class="mb-0">{{ .Date.Format "2 Jan"}} - {{ dateFormat "2 Jan, 2006 " .Params.EndDate }}</p>
+                                {{else}}
+                                <p class="mb-0">{{ .Date.Format "2"}} - {{ dateFormat "2 Jan, 2006 " .Params.EndDate }}</p>
+                                {{end}}
+                                {{else}}
+                                <h6 class="mb-0">{{ i18n "date" | upper}}</h6>
+                                <p class="mb-0">{{ .Date.Format "2 Jan, 2006"}}</p>
+                                {{end}}
+                            </div>
+                        </div>
+                    </li>
+                    {{end}}
+                    {{ if isset .Params "hide_time" }}
+                    {{else}}
+                    <li class="list-inline-item mr-xl-5 mr-4 mb-3 mb-lg-0">
+                        <div class="d-flex align-items-center">
+                            <i class="ti-time text-primary icon-md mr-2"></i>
+                            <div class="text-left">
+                                <h6 class="mb-0">{{ i18n "time" | upper }}</h6>
+                                <p class="mb-0">{{ dateFormat "3:04PM" .Date}}</p>
+                            </div>
+                        </div>
+                    </li>
+                    {{end}}
+                    {{ if .Params.show_cost}}
+                    <li class="list-inline-item mr-xl-5 mr-4 mb-3 mb-lg-0">
+                        <div class="d-flex align-items-center">
+                            <i class="ti-wallet text-primary icon-md mr-2"></i>
+                            <div class="text-left">
+                                <h6 class="mb-0">COST</h6>
+                                <p class="mb-0">{{ .Params.Cost | markdownify }}</p>
+                            </div>
+                        </div>
+                    </li>
+                    {{ end }}
+                </ul>
+            </div>
+            {{ if .Params.show_reservation}}
+            <div class="col-lg-3 text-lg-right text-left">
+                <a href="{{ .Params.Reserve_url | safeURL }}" class="btn btn-primary">Make Reservation</a>
+            </div>
+            {{ end }}
+            <!-- border -->
+            <div class="col-12 mt-4 order-4">
+                <div class="border-bottom border-primary"></div>
+            </div>
+        </div>
+        <!-- fundraiser details -->
+        <div class="row">
+            <div class="col-12 mb-50 content">
+                {{ .Content }}
+            </div>
+        </div>
+        <!-- fundraiser speakers -->
+        {{ if .Params.show_speakers}}
+        <div class="row">
+            <div class="col-12">
+                <h3 class="mb-4">Speakers</h3>
+            </div>
+            <!-- speakers -->
+            {{ range .Params.Speaker }}
+            <div class="col-lg-3 col-sm-6 mb-4 mb-lg-0">
+                <div class="media">
+                    {{ with .image }}<img class="mr-3 img-fluid" src="{{ . | relURL }}" alt="speaker">{{ end }}
+                    <div class="media-body">
+                        <h4 class="mt-0">{{ .name }}</h4>
+                        {{ .designation }}
+                    </div>
+                </div>
+            </div>
+            {{ end }}
+            <!-- border -->
+            <div class="col-12 mt-4 order-4">
+                <div class="border-bottom border-primary"></div>
+            </div>
+        </div>
+        {{ end }}
+    </div>
+</section>
+<!-- /fundraiser single -->
+<!-- more fundraiser -->
+<section class="section pt-0">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h2 class="section-title">{{ i18n "more_fundraiser" }}</h2>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <!-- fundraiser -->
+            {{ $related := (where site.RegularPages "Type" "fundraiser") | intersect (where site.Pages ".Title" "!=" .Title) | union (site.RegularPages.Related . ) | shuffle | first 3}}
+            {{ range first 3 $related }}
+            <div class="col-lg-4 col-sm-6 mb-5 mb-lg-0">
+                {{ .Render "fundraiser" }}
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</section>
+<!-- /more fundraiser -->
+{{ end }}
