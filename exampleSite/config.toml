@@ -152,6 +152,12 @@ hasChildren = true
   name = "Fundraisers"
   url = "fundraiser"
   
+  [[Languages.en.menu.main]]
+  #parent = "Happenings"
+  weight = 4
+  name = "Eyeglass Donations"
+  url = "https://www.alpharettalions.com/eyeglasses/map.html"
+  
 [[Languages.en.menu.main]]
 name = "Contact"
 url = "contact"
