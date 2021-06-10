@@ -172,7 +172,9 @@ function initialize() {
         });
     });
 
-    setMapToUserLocation();
+    alert('Setting map center to downtown Alpharetta.  To move to your current location, click the crosshairs icon on the right side of the map.');
+
+    //setMapToUserLocation();
 }
 
 function loadStoreData() {
