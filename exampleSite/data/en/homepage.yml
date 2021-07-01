@@ -4,15 +4,15 @@ slider:
   bg_image : "images/banner/banner-1.jpg"
   slider_item:
     # slider item loop
-#    - title : "Register now for State Convention!"
-#      content : "June 4-6 at the Sheraton Atlanta Hotel"
-#      animation_in : "left"
-#      animation_out : "right"
-#      # available animation : left, right, up, down
-#      button:
-#        enable : true
-#        label : "Register"
-#        link : "event/event-state-conv-06-2021"
+    - title : "Alpharetta Lions Club 2021 Charity Golf Club"
+      content : "September 27 at the Crooked Creek Club"
+      animation_in : "left"
+      animation_out : "right"
+      # available animation : left, right, up, down
+      button:
+        enable : true
+        label : "Register or Sponsor"
+        link : "fundraiser/golf"
 
 #    - title : "Saturday's Road Cleanup Postponed"
 #      content : "Due to impending weather"
