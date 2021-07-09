@@ -48,7 +48,7 @@ parent, spouse, or caregiver) who are awaiting or recovering from major transpla
 
 See our [online store](https://alpharetta-lions-club.square.site/shop/golf2021/3) to see ways local businesses,
 organizations, and individuals can participate in this worthwhile project.  We ask that you help us and your 
-community by ecoming a sponsor, donating an auction item or prize, having an ad in the brochure, and/or by 
+community by becoming a sponsor, donating an auction item or prize, having an ad in the brochure, and/or by 
 joining a foursome for a fun day of golf.
 
 For more information about playing or sponsoring, contact us at golf@alpharettalions.com.
