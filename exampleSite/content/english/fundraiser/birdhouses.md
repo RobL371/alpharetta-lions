@@ -55,7 +55,8 @@ Our club has started selling blue bird houses and feeders. They're very easy to 
 
 Available in pine or cedar.  You can also get a pole to hang it from.  An amazing gift for Mother's Day! Also available: Kits with assembly instructions.  Excellent gift for kid's birthdays or Christmas!
 
-###### To order, or for more information, email birdhouse@alpharettalions.com.
+### [Click here to order or for more information.](https://alpharetta-lions-club.square.site/shop/birdhouse/2)
+##### Or, email birdhouse@alpharettalions.com.
 
 
 ![Birdhouse](../../images/fundraiser/birdhouse7.jpg)   &nbsp; &nbsp;  &nbsp; ![Feeder](../../images/fundraiser/birdhouse8.jpg)
