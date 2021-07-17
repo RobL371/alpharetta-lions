@@ -20,15 +20,17 @@ body {
   font-family: "Poppins", sans-serif;
   -webkit-font-smoothing: antialiased;
   font-size: 15px;
-  color: #5c5c77; }
+  color: #000; }
 
 p, .paragraph {
   font-weight: 400;
-  color: #5c5c77;
-  font-size: 15px;
-  line-height: 1.9;
+  color: #000;
+  font-size: 20px;
+  line-height: 1.4;
   font-family: "Poppins", sans-serif; }
-
+  @media (max-width: 575px) {
+    p, .paragraph {
+      font-size: 15px; } }
 h1, h2, h3, h4, h5, h6 {
   color: #1e1e4b;
   font-family: "futura-bold";
@@ -51,7 +53,7 @@ h3, .h3 {
     h3, .h3 {
       font-size: 20px; } }
 h4, .h4 {
-  font-size: 20px; }
+  font-size: 22px; }
   @media (max-width: 575px) {
     h4, .h4 {
       font-size: 18px; } }
@@ -252,7 +254,7 @@ a h4:hover {
   color: #ffbc3b !important; }
 
 .text-color {
-  color: #5c5c77; }
+  color: #000; }
 
 .text-light {
   color: #8585a4 !important; }
@@ -370,7 +372,7 @@ textarea.form-control {
     .pagination .page-item:first-child .page-link, .pagination .page-item:last-child .page-link {
       border-radius: 0; }
     .pagination .page-item .page-link {
-      color: #5c5c77; }
+      color: #000; }
 
 .content * {
   margin-bottom: 20px; }
@@ -400,7 +402,7 @@ textarea.form-control {
       position: absolute;
       content: "\e724";
       font-family: "themify";
-      font-size: 12px;
+      font-size: 16px;
       left: 0;
       top: 1px;
       color: #ffbc3b;
@@ -443,7 +445,7 @@ textarea.form-control {
 
 .content blockquote p {
   margin-bottom: 0;
-  color: #5c5c77;
+  color: #000;
   font-style: italic !important; }
 
 .content pre {
@@ -801,7 +803,7 @@ link:focus,
   display: block;
   padding: 5px 10px;
   background: #f8f9fe;
-  color: #5c5c77; }
+  color: #000; }
   .tag-list a:hover {
     background-color: #ffbc3b;
     color: #fff; }
