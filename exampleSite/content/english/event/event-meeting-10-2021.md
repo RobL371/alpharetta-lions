@@ -1,22 +1,22 @@
 ---
-title: "Monthly Board Meeting"
+title: "Monthly Club Meeting"
 # Schedule page publish date
 publishDate: "2021-02-27T00:00:00Z"
 # event date
-date: "2021-09-09T19:00:00"
+date: "2021-10-28T19:00:00"
 # post save as draft
 draft: false
 # page title background image
 bg_image: "images/backgrounds/page-title.jpg"
 # meta description
-description : "Club and Foundation Business Meeting"
+description : "Social, Dinner, and Program  "
 # Event image
-image: "images/events/event-board.jpg"
+image: "images/events/event-meeting.jpg"
 # location
 location: "Crooked Creek Club"
 # entry fee
-show_cost: false
-cost: "$1,234.56"
+show_cost: true
+cost: "$20"
 # apply url
 show_reservation: false
 apply_url : "#"
@@ -47,6 +47,6 @@ show_speakers: false
 type: "event"
 ---
 
-The Board of directors meeting is open to all Alpharetta Lions Club members.  All members present are entitled to vote. Arrive at 6:30PM for social time and dinner.
+Arrive at 6:30PM for social hour.  Dinner is served at 7PM with the program to follow.
 
 We will no longer be broadcasting an online version of the meeting.  If you have a special need to participate remotely for a specific meeting, please contact Rob Lefebvre.

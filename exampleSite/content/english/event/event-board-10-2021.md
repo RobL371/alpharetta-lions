@@ -3,7 +3,7 @@ title: "Monthly Board Meeting"
 # Schedule page publish date
 publishDate: "2021-02-27T00:00:00Z"
 # event date
-date: "2021-09-09T19:00:00"
+date: "2021-10-14T19:00:00"
 # post save as draft
 draft: false
 # page title background image
