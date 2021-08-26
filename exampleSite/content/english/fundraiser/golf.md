@@ -37,6 +37,12 @@ The Alpharetta Lions Club is hosting its annual charity golf tournament on Septe
 Creek Golf Club.  Format will be a four-person "Texas Shamble" with a shotgun start at 9:00 am.  Individual 
 players and twosomes will be paired with players of similar skill levels or interests whenever possible.
 
+*In a Shamble each golfer tees off on every hole. The team then selects their best drive and each team member 
+plays their second shot from there. After the second shot each golfer plays their own ball for the remainder 
+of the hole. For example, players A & B are on a team, both A & B tee off, A hit the better drive so they select 
+to take their second shot from A's spot, both A & B hit from A's spot, and play their own balls throughout the 
+rest of the hole.*
+
 ##### [Click here to register to play.](https://alpharetta-lions-club.square.site/product/golf2021/5)  
 
 Play will be immediately followed by free beer and gourmet hotdogs at the clubhouse, along with the 
