@@ -4,7 +4,7 @@ slider:
   bg_image : "images/banner/banner-1.jpg"
   slider_item:
     # slider item loop
-    - title : "Alpharetta Lions Club 2021 Charity Golf Club"
+    - title : "Alpharetta Lions Club 2021 Charity Golf Tournament"
       content : "September 27 at the Crooked Creek Club"
       animation_in : "left"
       animation_out : "right"
