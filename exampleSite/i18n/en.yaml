@@ -73,6 +73,9 @@
 - id: more_event
   translation: More Events
 
+- id: more_fundraiser
+  translation: More Fundraisers
+
 - id: join
   translation: Join
   
