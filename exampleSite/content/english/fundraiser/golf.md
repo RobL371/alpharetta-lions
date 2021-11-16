@@ -3,10 +3,10 @@ title: "Golf Tournament"
 # Schedule page publish date
 publishDate: "2021-02-27T00:00:00Z"
 # event date
-date: "2021-09-27T9:00:00Z"
+date: "2022-09-27T9:00:00Z"
 #enddate: "2021-06-06T12:00:00Z"
-#hide_date: true
-#hide_time: true
+hide_date: true
+hide_time: true
 # post save as draft
 draft: false
 # page title background image
@@ -19,7 +19,7 @@ image: "images/fundraiser/golf.jpg"
 location: "Crooked Creek Club"
 # entry fee
 show_cost: true
-cost: "$100"
+cost: "TBD"
 # apply url
 show_reservation: false
 apply_url : "#"
@@ -31,7 +31,11 @@ show_speakers: false
 type: "fundraiser"
 ---
 
-### Alpharetta Lions Club 2021 Charity Golf Tournament
+### Upcoming Event: Alpharetta Lions Club 2022 Charity Golf Tournament
+
+Stay tuned for information and dates for our 2022 event.  For sponsorship information, contact Bill Requa at golf@alpharettalions.com.
+
+### Past Event: Alpharetta Lions Club 2021 Charity Golf Tournament
 
 The Alpharetta Lions Club is hosting its annual charity golf tournament on September 27th at the Crooked 
 Creek Golf Club.  Format will be a four-person "Texas Shamble" with a shotgun start at 9:00 am.  Individual 
