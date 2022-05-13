@@ -3,7 +3,7 @@ title: "Golf Tournament"
 # Schedule page publish date
 publishDate: "2021-02-27T00:00:00Z"
 # event date
-date: "2022-09-27T9:00:00Z"
+date: "2022-10-03T9:00:00Z"
 #enddate: "2021-06-06T12:00:00Z"
 hide_date: true
 hide_time: true
@@ -33,7 +33,7 @@ type: "fundraiser"
 
 ### Upcoming Event: Alpharetta Lions Club 2022 Charity Golf Tournament
 
-Stay tuned for information and dates for our 2022 event.  For sponsorship information, contact Bill Requa at golf@alpharettalions.com.
+Stay tuned for information and dates for our 2022 event.  For sponsorship information, contact Garner Andrews at golf@alpharettalions.com.
 
 ### Past Event: Alpharetta Lions Club 2021 Charity Golf Tournament
 
@@ -65,6 +65,6 @@ ask that you help us and your
 community by becoming a sponsor, donating an auction item or prize, having an ad in the brochure, and/or by 
 joining a foursome for a fun day of golf.
 
-[Sponsor the tournament.](https://alpharetta-lions-club.square.site/shop/golfsponsor2021/5) For more sponsorship information, contact Bill Requa at golf@alpharettalions.com.
+[Sponsor the tournament.](https://alpharetta-lions-club.square.site/shop/golfsponsor2021/5) For more sponsorship information, contact Garner Andrews at golf@alpharettalions.com.
 
 Thank you for your consideration and generosity.  
