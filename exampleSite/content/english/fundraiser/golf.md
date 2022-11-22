@@ -5,8 +5,8 @@ publishDate: "2021-02-27T00:00:00Z"
 # event date
 date: "2022-10-03T9:00:00Z"
 #enddate: "2021-06-06T12:00:00Z"
-hide_date: true
-hide_time: true
+hide_date: false
+hide_time: false
 # post save as draft
 draft: false
 # page title background image
@@ -33,30 +33,22 @@ type: "fundraiser"
 
 ### Alpharetta Lions Club 2022 Charity Golf Tournament
 
-The Alpharetta Lions Club is hosting its annual charity golf tournament:  
-
-October 3rd, 2022  
-Iron Horse Golf Club (formerly Crooked Creek Golf Club)  
+[Iron Horse Golf Club](https://goo.gl/maps/KKiB2NXr17ZHA49M8) (formerly Crooked Creek Golf Club)  
 Milton, GA  
-  
-##### [Click here to register to play.](https://alpharetta-lions-club.square.site/shop/golftournament2022/3)  
-
-Format will be a four-person "Texas Shamble" with a shotgun start at 9:00 am.  Individual 
-players and twosomes will be paired with players of similar skill levels or interests whenever possible.
-
-Play will be immediately followed by free beer and gourmet hotdogs at the clubhouse, along with the 
-awarding of prizes and a silent auction featuring a large array of desirable items.
+8AM Monday, October 3rd, 2022  
 
 Proceeds will benefit the Georgia Lions Lighthouse Foundation and the Alpharetta Lions general charity fund.
 
+* [Electronic Registration for Players](https://alpharetta-lions-club.square.site/shop/golftournament2022/3)  
 
-### Interested in sponsoring the tournament?
+* [Electronic Sponsorship and Advertisement Purchases](https://alpharetta-lions-club.square.site/shop/golfsponsor2022/5) 
 
-Local businesses, organizations, and individuals can participate in this worthwhile project.  We 
-ask that you help us and your 
-community by becoming a sponsor, donating an auction item or prize, having an ad in the brochure, and/or by 
-joining a foursome for a fun day of golf.
+If you prefer, you may use a paper form for registration and purchases. The paper forms also have additional details:
 
-[Sponsor the tournament.](https://alpharetta-lions-club.square.site/shop/golfsponsor2022/5) For more sponsorship information, contact Garner Andrews at golf@alpharettalions.com.
+* [Player Info and Registration Form](https://www.alpharettalions.com/pdf/ALC2022GolfPlayer.pdf)
 
-Thank you for your consideration and generosity.  
+* [Sponsorship Structure and Purchase Form](https://www.alpharettalions.com/pdf/ALC2022GolfSponsor.pdf)
+
+* [Tournament Brochure Advertisement Purchase Form](https://www.alpharettalions.com/pdf/ALC2022GolfAds.pdf)
+
+For more information, contact Garner Andrews at golf@alpharettalions.com.
