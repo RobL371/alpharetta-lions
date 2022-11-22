@@ -18,7 +18,7 @@ image: "images/fundraiser/bluebird.jpg"
 location: "Alpharetta, GA"
 # entry fee
 show_cost: true
-cost: "$15 to $40"
+cost: "$25 to $40"
 # apply url
 show_reservation: false
 apply_url : "#"
@@ -59,22 +59,16 @@ Available in pine or cedar.  You can also get a pole to hang it from.  An amazin
 ##### Or, email birdhouse@alpharettalions.com.
 
 
-![Birdhouse](../../images/fundraiser/birdhouse7.jpg)   &nbsp; &nbsp;  &nbsp; ![Feeder](../../images/fundraiser/birdhouse8.jpg)
+![Birdhouse](../../images/fundraiser/birdhouse7.jpg)
 
 
-##### Assembled houses: Pine $25, Cedar $35
+##### Assembled houses: Pine $25, Cedar $40
 ![Birdhouse](../../images/fundraiser/birdhouse1.jpg)
 
-##### Kit houses: Pine $20, Cedar $30
+##### Kit houses: Pine $20, Cedar $35
 ![Birdhouse Kit](../../images/fundraiser/birdhouse2.jpg)
 
-##### Assembled feeders: Pine $30, Cedar $40
-![Feeder](../../images/fundraiser/birdhouse3.jpg)
-
-##### Kit Feeders: Pine $25, Cedar $35
-![Feeder Kit](../../images/fundraiser/birdhouse4.jpg)
-
-##### Mounting Pole Kits: House $15, Feeder $20
-![House Pole](../../images/fundraiser/birdhouse5.jpg)   &nbsp; &nbsp;  &nbsp; ![Feeder Pole](../../images/fundraiser/birdhouse6.jpg)
+##### Mounting Pole Kits: House $20
+![House Pole](../../images/fundraiser/birdhouse5.jpg)
 
 
