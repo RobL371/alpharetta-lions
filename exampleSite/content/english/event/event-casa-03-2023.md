@@ -1,22 +1,22 @@
 ---
-title: "Monthly Club Meeting"
+title: "Casa Nuova Fundraiser"
 # Schedule page publish date
 publishDate: "2021-02-27T00:00:00Z"
 # event date
-date: "2023-01-26T19:00:00"
+date: "2023-03-15T17:00:00"
 # post save as draft
 draft: false
 # page title background image
 bg_image: "images/backgrounds/page-title.jpg"
 # meta description
-description : "Social, Dinner, and Program  "
+description : "Lions day at Casa Nuova"
 # Event image
-image: "images/events/event-meeting.jpg"
+image: "images/events/event-casa.jpg"
 # location
-location: "Crooked Creek Club"
+location: "Alpharetta, GA"
 # entry fee
 show_cost: true
-cost: "$20"
+cost: "$Varies"
 # apply url
 show_reservation: false
 apply_url : "#"
@@ -47,8 +47,8 @@ show_speakers: false
 type: "event"
 ---
 
-Arrive at 6:30PM for social hour.  Dinner is served at 7PM with the program to follow.
+You can dine in, buy a gift certificate, buy wine, or buy take out (curbside delivery only).
+All this from the comfort of your home! A percentage of sales this day will benefit those in need in our community.
+Just give them a call!
 
-The guest speakers will be Sara Claudia and Dave Knight with Leader Dogs for the Blind.
-
-We will no longer be broadcasting an online version of the meeting.  If you have a special need to participate remotely for a specific meeting, please contact Rob Lefebvre.
+[Casa Nuova, 5670 Hwy. Ste. A1, Alpharetta, GA 30004.  770-475-9100](https://casanuovarestaurant.com/)

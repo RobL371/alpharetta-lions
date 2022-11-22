@@ -1,22 +1,22 @@
 ---
-title: "Monthly Club Meeting"
+title: "Strides for Sight & Sound"
 # Schedule page publish date
 publishDate: "2021-02-27T00:00:00Z"
 # event date
-date: "2023-01-26T19:00:00"
+date: "2023-04-22T08:00:00"
 # post save as draft
 draft: false
 # page title background image
 bg_image: "images/backgrounds/page-title.jpg"
 # meta description
-description : "Social, Dinner, and Program  "
+description : "Fundraising for sight and sound!"
 # Event image
-image: "images/events/event-meeting.jpg"
+image: "images/events/event-strides.jpg"
 # location
-location: "Crooked Creek Club"
+location: "Georgia Lions Lighthouse"
 # entry fee
 show_cost: true
-cost: "$20"
+cost: "$10"
 # apply url
 show_reservation: false
 apply_url : "#"
@@ -47,8 +47,11 @@ show_speakers: false
 type: "event"
 ---
 
-Arrive at 6:30PM for social hour.  Dinner is served at 7PM with the program to follow.
 
-The guest speakers will be Sara Claudia and Dave Knight with Leader Dogs for the Blind.
+#### Join the walk (in person or virtually) and help fundraise for Georgia's visually and hearing impaired.
 
-We will no longer be broadcasting an online version of the meeting.  If you have a special need to participate remotely for a specific meeting, please contact Rob Lefebvre.
+Georgia Lions Lighthouse Foundation  
+5582 Peachtree Road, Atlanta GA 30341
+
+
+#### Official event information for 2023 will be posted when it bcomes available.
