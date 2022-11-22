@@ -132,10 +132,16 @@ weight = 1
 [[Languages.en.menu.main]]
 name = "Golf"
 url = "fundraiser/golf/"
-weight = 1
+weight = 2
 
 [[Languages.en.menu.main]]
+name = "Sponsors"
+url = "fundraiser/golf/"
 weight = 3
+
+
+[[Languages.en.menu.main]]
+weight = 4
 name = "Happenings"
 hasChildren = true
 
@@ -158,7 +164,7 @@ hasChildren = true
   url = "fundraiser"
   
   [[Languages.en.menu.main]]
-  #parent = "Happenings"
+  parent = "Happenings"
   weight = 4
   name = "Eyeglasses"
   url = "https://www.alpharettalions.com/eyeglasses/map.html"
