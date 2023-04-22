@@ -139,7 +139,7 @@ weight = 2
 
 [[Languages.en.menu.main]]
 name = "Sponsors"
-url = "fundraiser/golf/"
+url = "fundraiser/sponsors/"
 weight = 3
 
 
