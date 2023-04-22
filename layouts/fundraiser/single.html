@@ -4,18 +4,26 @@
 <section class="section-sm">
     <div class="container">
         <div class="row">
+            {{ if isset .Params "hide_title" }}
+            {{else}}
             <div class="col-12">
                 <h2 class="section-title">{{ .Title }}</h2>
             </div>
+            {{end}}
             <!-- fundraiser image -->
+            {{ if isset .Params "hide_image" }}
+            {{else}}
             <div class="col-12 mb-4">
                 <img style="height: 250px;width: 40%;object-fit: contain;" src="{{ .Params.image | relURL }}" alt="{{ .Title }}" class="img-fluid w-40">
             </div>
+            {{end}}
         </div>
         <!-- fundraiser info -->
         <div class="row align-items-center mb-5">
             <div class="col-lg-9">
                 <ul class="list-inline">
+                    {{ if isset .Params "hide_location" }}
+                    {{else}}
                     <li class="list-inline-item mr-xl-5 mr-4 mb-3 mb-lg-0">
                         <div class="d-flex align-items-center">
                             <i class="ti-location-pin text-primary icon-md mr-2"></i>
@@ -25,6 +33,7 @@
                             </div>
                         </div>
                     </li>
+                    {{end}}
                     {{ if isset .Params "hide_date" }}
                     {{else}}
                     <li class="list-inline-item mr-xl-5 mr-4 mb-3 mb-lg-0">
@@ -77,9 +86,12 @@
             </div>
             {{ end }}
             <!-- border -->
+            {{ if isset .Params "hide_border" }}
+            {{else}}
             <div class="col-12 mt-4 order-4">
                 <div class="border-bottom border-primary"></div>
             </div>
+            {{end}}
         </div>
         <!-- fundraiser details -->
         <div class="row">
