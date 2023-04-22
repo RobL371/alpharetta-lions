@@ -354,6 +354,57 @@ textarea.form-control {
   height: 200px;
   padding: 20px; }
 
+textarea.app-form-control {
+  height: 200px;
+  padding: 10px; }
+
+div.app-form-control {
+  display: grid;
+  grid-template-columns: max-content max-content;
+  grid-gap: 5px;
+  height: max-content; }
+  @media (max-width: 575px) {
+    div.app-form-control {
+      grid-template-columns: 370px; } }
+div.app-form-control legend {
+  text-align: right; }
+  @media (max-width: 575px) {
+    div.app-form-control legend {
+      text-align: left; } }
+  @media (max-width: 575px) {
+    div.app-form-control legend {
+      font-size: 15px; } }
+label.app-form-control {
+  xdisplay: block;
+  width: max-content;
+  xmax-width: 100%;
+  padding: .5rem;
+  xmargin-bottom: .5rem;
+  font-size: 1.5rem;
+  xline-height: inherit;
+  color: inherit;
+  white-space: normal;
+  vertical-align: top; }
+  @media (max-width: 575px) {
+    label.app-form-control {
+      font-size: 15px; } }
+input.app-form-control[type="radio"] {
+  xfont-size: 1.5rem;
+  xpadding: .5rem;
+  xmargin: 0;
+  xfont: inherit;
+  xcolor: currentColor;
+  width: 1.15rem;
+  xheight: 1.5em;
+  border: 0.5em solid currentColor;
+  border-radius: 50%;
+  xvertical-align: middle; }
+
+input.app-form-control {
+  padding: 10px;
+  margin: 0;
+  height: 30px; }
+
 #map_canvas {
   height: 500px; }
 
@@ -768,14 +819,26 @@ link:focus,
 
 .form-control {
   height: 60px;
-  background: #fff;
+  xbackground: #fff;
   border-radius: 0;
   padding-left: 25px; }
   .form-control:focus {
     border-color: #ffbc3b;
     box-shadow: none; }
 
+.app-form-control {
+  height: 60px;
+  xbackground: #fff;
+  border-radius: 0;
+  padding-left: 25px; }
+  .app-form-control:focus {
+    border-color: #ffbc3b;
+    box-shadow: none; }
+
 .newsletter-block .form-control {
+  height: 90px; }
+
+.newsletter-block .app-form-control {
   height: 90px; }
 
 .bg-footer {

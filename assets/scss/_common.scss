@@ -281,6 +281,70 @@ textarea.form-control{
   padding: 20px;
 }
 
+textarea.app-form-control {
+    height: 200px;
+    padding: 10px;
+}
+
+div.app-form-control {
+    display: grid;
+    grid-template-columns: max-content max-content;
+
+    @include mobile {
+        grid-template-columns: 370px;
+    }
+
+    grid-gap: 5px;
+    height: max-content;
+}
+
+div.app-form-control legend {
+    text-align: right;
+
+    @include mobile {
+        text-align: left;
+    }
+
+    @include mobile {
+        font-size: 15px;
+    }
+}
+label.app-form-control {
+    xdisplay: block;
+    width: max-content;
+    xmax-width: 100%;
+    padding: .5rem;
+    xmargin-bottom: .5rem;
+    font-size: 1.5rem;
+
+    @include mobile {
+        font-size: 15px;
+    }
+
+    xline-height: inherit;
+    color: inherit;
+    white-space: normal;
+    vertical-align: top;
+}
+input.app-form-control[type="radio"] {
+    xfont-size: 1.5rem;
+    xpadding: .5rem;
+    xmargin: 0;
+    xfont: inherit;
+    xcolor: currentColor;
+    width: 1.15rem;
+    xheight: 1.5em;
+    border: 0.5em solid currentColor;
+    border-radius: 50%;
+    xvertical-align: middle;
+}
+input.app-form-control{
+    padding: 10px;
+    margin: 0;
+    height: 30px;
+}
+
+
 #map_canvas{
   height: 500px;
 }

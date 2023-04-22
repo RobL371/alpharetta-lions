@@ -191,7 +191,7 @@
 
 .form-control {
   height: 60px;
-  background: $white;
+  xbackground: $white;
   border-radius: 0;
   padding-left: 25px;
 
@@ -201,11 +201,31 @@
   }
 }
 
+.app-form-control {
+    height: 60px;
+    xbackground: $body-color;
+    border-radius: 0;
+    padding-left: 25px;
+
+    &:focus {
+        border-color: $primary-color;
+        box-shadow: none;
+    }
+}
+
+
 .newsletter-block {
   .form-control {
     height: 90px;
   }
 }
+
+.newsletter-block {
+  .app-form-control {
+    height: 90px;
+  }
+}
+
 
 .bg-footer {
   background-color: #182b45;

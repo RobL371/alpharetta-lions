@@ -1,0 +1,92 @@
+{{ define "main" }}
+    
+<!-- application -->
+<section class="section bg-gray">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h2 class="section-title">Virtual Gaming Club Membership Application</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12 content">
+                {{ .Content }}
+                <a href="tel:{{ site.Params.mobile }}" class="text-color h5 d-block">{{ site.Params.mobile }}</a>
+                <p>For more information, contact <a href="mailto:{{ site.Params.email }}">{{ site.Params.gamingemail }}</a></p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <form action="{{ site.Params.gaming_application_form_action | safeURL }}" method="POST">
+                    <div class="app-form-control">
+                        <legend>Full Name:</legend>
+                        <input type="text" class="app-form-control mb-3" id="name" name="name">
+
+                        <legend>Gender:</legend>
+                        <div>
+                            &nbsp;&nbsp;&nbsp;
+                            <input class="app-form-control" type="radio" id="male" name="gender" value="male">
+                            <label class="app-form-control" for="male">Male&nbsp;&nbsp;&nbsp;</label>
+                            <input class="app-form-control" type="radio" id="female" name="gender" value="female">
+                            <label class="app-form-control" for="female">Female&nbsp;&nbsp;&nbsp;</label>
+                            <input class="app-form-control" type="radio" id="nonbinary" name="gender" value="nonbinary">
+                            <label class="app-form-control" for="nonbinary">Non-Binary&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                            <input class="app-form-control" type="radio" id="noanswer" name="gender" value="noanswer">
+                            <label class="app-form-control" for="noanswer">Prefer not to answer</label>
+                        </div>
+                        <legend>Date of birth:</legend>
+                        <input type="date" class="app-form-control mb-3" id="birthdate" name="birthdate" placeholder="Date of birth">
+
+                        <legend>Spouse's name:</legend>
+                        <input type="text" class="app-form-control mb-3" id="spouse" name="spouse">
+
+                        <legend>Address:</legend>
+                        <input type="text" class="app-form-control mb-3" id="address" name="address">
+
+                        <legend>City:</legend>
+                        <input type="text" class="app-form-control mb-3" id="city" name="city">
+
+                        <legend>State/Prov/District:</legend>
+                        <input type="text" class="app-form-control mb-3" id="state" name="state">
+
+                        <legend>Zip/Postal Code:</legend>
+                        <input type="text" class="app-form-control mb-3" id="zip" name="zip">
+
+                        <legend>Country:</legend>
+                        <input type="text" class="app-form-control mb-3" id="country" name="country" value="USA">
+
+                        <legend>Phone:</legend>
+                        <input type="text" class="app-form-control mb-3" id="phone" name="phone">
+
+                        <legend>Email:</legend>
+                        <input type="email" class="app-form-control mb-3" id="email" name="email">
+
+                        <legend>Gamer Nickname:</legend>
+                        <input type="nickname" class="app-form-control mb-3" id="nickname" name="nickname" placeholder="Any gamer tags you use?">
+
+                        <legend>Other Information:</legend>
+                        <textarea name="message" id="message" class="app-form-control mb-3" placeholder="Enter any notes or other information you'd like to provide.  If you are already a member of Lions Club, provide your previous club and your LCI member number so we can transfer your membersip."></textarea>
+
+                        <legend>Signature (your name):</legend>
+                        <input type="text" class="app-form-control mb-3" id="signature" name="signature">
+
+                        <button type="submit" value="send" class="btn btn-primary">Submit Application</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- /contact -->
+
+<!-- gmap -->
+<!-- <section class="section pt-0">
+  <div id="map_canvas" 
+  data-latitude="{{ site.Params.map.map_latitude }}"
+  data-longitude="{{ site.Params.map.map_longitude }}" 
+  data-marker="{{ site.Params.map.map_marker | absURL }}"
+  data-marker-name="{{ site.Title }}"></div>
+</section> -->
+<!-- /gmap -->
+
+{{ end }}

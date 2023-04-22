@@ -50,8 +50,11 @@ author = "Alpharetta Lions Club"
 address = "Alpharetta, GA"
 mobile = ""
 email = "info@alpharettalions.com"
+gamingemail = "LCI.VirtualGaming@gmail.com"
 # contact form action
 contact_form_action = "https://formspree.io/f/xeqpbagr" # contact form works with https://formspree.io
+# application form action
+gaming_application_form_action = "https://formspree.io/f/xnqyjddq" # gaming application form works with https://formspree.io
 # Google Analitycs
 google_analitycs_id = "" # your id
 # top header
