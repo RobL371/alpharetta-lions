@@ -13,7 +13,7 @@ description : "Club and Foundation Business Meeting"
 # Event image
 image: "images/events/event-board.jpg"
 # location
-location: "Iron Horse Golf Club"
+location: "Milton Tavern"
 # entry fee
 show_cost: false
 cost: "$1,234.56"

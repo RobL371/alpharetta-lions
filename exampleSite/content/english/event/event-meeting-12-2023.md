@@ -13,10 +13,10 @@ description : "Social, Dinner, and Program  "
 # Event image
 image: "images/events/event-meeting.jpg"
 # location
-location: "Iron Horse Golf Club"
+location: "Atlanta Natl Golf Club, Milton"
 # entry fee
 show_cost: true
-cost: "$20"
+cost: "$25"
 # apply url
 show_reservation: false
 apply_url : "#"
@@ -48,5 +48,7 @@ type: "event"
 ---
 
 Arrive at 6:30PM for social hour.  Dinner is served at 7PM with the program to follow.
+
+**Note the special location!**  Carey Durham will provide special holiday music, don't miss it!
 
 We will no longer be broadcasting an online version of the meeting.  If you have a special need to participate remotely for a specific meeting, please contact Rob Lefebvre.

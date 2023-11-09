@@ -3,7 +3,7 @@ title: "Monthly Club Meeting"
 # Schedule page publish date
 publishDate: "2021-02-27T00:00:00Z"
 # event date
-date: "2023-11-16T19:00:00"
+date: "2023-11-09T19:00:00"
 # post save as draft
 draft: false
 # page title background image
@@ -13,10 +13,10 @@ description : "Social, Dinner, and Program  "
 # Event image
 image: "images/events/event-meeting.jpg"
 # location
-location: "Iron Horse Golf Club"
+location: "Olde Blind Dog, Milton"
 # entry fee
 show_cost: true
-cost: "$20"
+cost: "$25"
 # apply url
 show_reservation: false
 apply_url : "#"

@@ -3,7 +3,7 @@ title: "Monthly Board Meeting"
 # Schedule page publish date
 publishDate: "2022-02-10T00:00:00Z"
 # event date
-date: "2023-11-09T19:00:00"
+date: "2023-11-21T19:00:00"
 # post save as draft
 draft: false
 # page title background image
@@ -13,7 +13,7 @@ description : "Club and Foundation Business Meeting"
 # Event image
 image: "images/events/event-board.jpg"
 # location
-location: "Iron Horse Golf Club"
+location: "Salmon & Turkey Cooking"
 # entry fee
 show_cost: false
 cost: "$1,234.56"
@@ -47,6 +47,6 @@ show_speakers: false
 type: "event"
 ---
 
-The Board of directors meeting is open to all Alpharetta Lions Club members.  All members present are entitled to vote. Arrive at 6:30PM for social time and dinner.
+Due to the holidays we will meet during the Salmon & Turkey cooking.
 
 We will no longer be broadcasting an online version of the meeting.  If you have a special need to participate remotely for a specific meeting, please contact Rob Lefebvre.
